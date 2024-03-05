@@ -18,15 +18,14 @@ status so far:
  - xtdb/v1:
  	+ http-rest-api wrapper client, +edn+json - ok+tests
  	+ query-builder for datalog + edn , +lucene - ok+tests
- 	+ multinode , dockers
+ 	+ multi-node, +checkpoint/snapshot-ing, dockers:
 		+ kafka, with kraft or zookeeper
 		+ postgresql
 		+ kafka+postgresql
-		- partial-order in kafka ?
  + xtdb.v2.alpha:
 	+ xtql query-builder - ok+doctests 
  	+ http-rest-api wrapper client, +transit-json - ok+tests
-	- http-rest-api over json-ld - (not yet)
-	- multinode etc non-local install?
+	- http-rest-api over json-ld - TODO
+	- multinode etc non-local install? TODO
  - other tests and examples exist, not very ordered
  - all else - higher level - is still in flux - schema, objmapper, unitofwork, etc
